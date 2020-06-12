@@ -1,0 +1,19 @@
+{
+  "name": "mirage",
+  "version": "1.0.0",
+  "description": "site mirage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viperee/MirageProd.git"
+  },
+  "author": "Victoria Pereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viperee/MirageProd/issues"
+  },
+  "homepage": "https://github.com/viperee/MirageProd#readme"
+}
