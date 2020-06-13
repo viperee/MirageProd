@@ -1,5 +1,5 @@
 $().ready(() => {
-    $("#btn-icon-ticket").hover(hoverIn, hoverOut)
+    $(".btn-icon-ticket").hover(hoverIn, hoverOut);
 });
 
 function hoverIn() {

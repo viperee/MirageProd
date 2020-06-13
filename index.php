@@ -24,7 +24,7 @@
 <?php include("script.php"); ?>
 <!--/IMPORTS JS-->
 <script src='node_modules/p5/lib/p5.min.js'></script>
-<script src="assets/js/index.js"></script>
 <script src="assets/js/lineDistortion.js"></script>
+<script src="assets/js/index.js"></script>
 </body>
 </html>

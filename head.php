@@ -7,6 +7,7 @@
 
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/header.css">
+<link rel="stylesheet" href="assets/css/sidenav.css">
 <link rel="stylesheet" href="assets/css/utility.css">
 <link rel="stylesheet" href="https://use.typekit.net/qpb4uvx.css">
 <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
