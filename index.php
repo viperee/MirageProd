@@ -15,16 +15,18 @@
         <h2 class="text-center">Cosmogonie</h2>
     </div>
     <div id="lignes"></div>
+    <div class="background-white defiliant-banner-wrapper">
+        <p>Mirage festival - Arts, technologie et innovations - du 08 au 12 juillet -</p>
+    </div>
 </main>
-<script src='node_modules/p5/lib/p5.min.js'></script>
 
 <?php include("footer.php"); ?>
 
 <!--IMPORTS JS-->
 <?php include("script.php"); ?>
 <!--/IMPORTS JS-->
+<script src='node_modules/p5/lib/p5.min.js'></script>
 <script src="assets/js/index.js"></script>
 <script src="assets/js/lineDistortion.js"></script>
-<script src="assets/js/sidenav.js"></script>
 </body>
 </html>

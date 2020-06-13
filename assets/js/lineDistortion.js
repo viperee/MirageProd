@@ -2,7 +2,7 @@ let canvas, ctx;
 let mouseIn = false;
 
 function setup() {
-  canvas = createCanvas(windowWidth, windowHeight * 0.63);
+  canvas = createCanvas(windowWidth, (windowHeight * 0.63)-48);
   canvas.canvas.onmouseenter = () => mouseIn = true;
   canvas.canvas.onmouseleave = () => mouseIn = false;
   ctx = canvas.drawingContext;
