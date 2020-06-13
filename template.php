@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
+<?php $page = 'TODO'; ?>
 <head>
     <title>TITRE</title>
     <?php include("head.php"); ?>
@@ -7,7 +8,7 @@
 <body>
 <?php include("header.php"); ?>
 
-<main class="wrapper">
+<main>
 </main>
 
 <?php include("footer.php"); ?>

@@ -15,7 +15,7 @@
         <h2 class="text-center">Cosmogonie</h2>
     </div>
     <div id="lignes"></div>
-    <div class="background-white defiliant-banner-wrapper">
+    <div class="background-white defiliant-banner-wrapper position-fixed-bottom">
         <p>Mirage festival - Arts, technologie et innovations - du 08 au 12 juillet</p>
     </div>
 </main>
