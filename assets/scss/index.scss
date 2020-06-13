@@ -9,6 +9,9 @@ body{
 
 .defiliant-banner-wrapper{
   height: 48px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   p{
     font-family: proxima-nova, sans-serif;
     font-style: normal;
@@ -17,6 +20,7 @@ body{
     text-transform: uppercase;
     animation: defilement-rtl 5s infinite linear;
     white-space: nowrap;
+    margin: 0;
   }
 }
 .defiliant-banner-wrapper p:hover{

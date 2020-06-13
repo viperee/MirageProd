@@ -53,7 +53,10 @@ body {
   background: #000000; }
 
 .defiliant-banner-wrapper {
-  height: 48px; }
+  height: 48px;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
   .defiliant-banner-wrapper p {
     font-family: proxima-nova, sans-serif;
     font-style: normal;
@@ -61,7 +64,8 @@ body {
     font-size: 39px;
     text-transform: uppercase;
     animation: defilement-rtl 5s infinite linear;
-    white-space: nowrap; }
+    white-space: nowrap;
+    margin: 0; }
 
 .defiliant-banner-wrapper p:hover {
   animation-play-state: paused; }

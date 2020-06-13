@@ -16,11 +16,9 @@
     </div>
     <div id="lignes"></div>
     <div class="background-white defiliant-banner-wrapper">
-        <p>Mirage festival - Arts, technologie et innovations - du 08 au 12 juillet -</p>
+        <p>Mirage festival - Arts, technologie et innovations - du 08 au 12 juillet</p>
     </div>
 </main>
-
-<?php include("footer.php"); ?>
 
 <!--IMPORTS JS-->
 <?php include("script.php"); ?>
