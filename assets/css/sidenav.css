@@ -45,6 +45,9 @@
 .sidenav-link:hover {
   text-decoration: line-through; }
 
+.sidenav-link-active {
+  text-decoration: line-through; }
+
 #sidenav-social-network {
   margin-left: 97px;
   margin-top: 140px; }

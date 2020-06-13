@@ -18,11 +18,45 @@
                 </div>
                 <div class="col-12">
                     <ul>
-                        <li><a class="sidenav-link" href="index.php">Accueil</a>
-                        <li><a class="sidenav-link" href="festival.php">Le Festival</a></li>
-                        <li><a class="sidenav-link" href="experience.php">Expérience</a></li>
-                        <li><a class="sidenav-link" href="programmation.php">Programmation</a></li>
-                        <li><a class="sidenav-link" href="infos-pratiques.php">Infos Pratiques</a></li>
+                        <?php
+                        switch ($page) {
+                            case "index":
+                                echo "<li><a class=\"sidenav-link sidenav-link-active\" href=\"index.php\">Accueil</a></li>";
+                                echo "<li><a class=\"sidenav-link\" href=\"festival.php\">Le Festival</a></li>";
+                                echo "<li><a class=\"sidenav-link\" href=\"experience.php\">Expérience</a></li>";
+                                echo "<li><a class=\"sidenav-link\" href=\"programmation.php\">Programmation</a></li>";
+                                echo "<li><a class=\"sidenav-link\" href=\"infos-pratiques.php\">Infos Pratiques</a></li>";
+                                break;
+                            case "festival":
+                                echo "<li><a class=\"sidenav-link\" href=\"index.php\">Accueil</a></li>";
+                                echo "<li><a class=\"sidenav-link sidenav-link-active\" href=\"festival.php\">Le Festival</a></li>";
+                                echo "<li><a class=\"sidenav-link\" href=\"experience.php\">Expérience</a></li>";
+                                echo "<li><a class=\"sidenav-link\" href=\"programmation.php\">Programmation</a></li>";
+                                echo "<li><a class=\"sidenav-link\" href=\"infos-pratiques.php\">Infos Pratiques</a></li>";
+                                break;
+                            case "experience":
+                                echo "<li><a class=\"sidenav-link\" href=\"index.php\">Accueil</a></li>";
+                                echo "<li><a class=\"sidenav-link\" href=\"festival.php\">Le Festival</a></li>";
+                                echo "<li><a class=\"sidenav-link sidenav-link-active\" href=\"experience.php\">Expérience</a></li>";
+                                echo "<li><a class=\"sidenav-link\" href=\"programmation.php\">Programmation</a></li>";
+                                echo "<li><a class=\"sidenav-link\" href=\"infos-pratiques.php\">Infos Pratiques</a></li>";
+                                break;
+                            case "programmation":
+                                echo "<li><a class=\"sidenav-link\" href=\"index.php\">Accueil</a></li>";
+                                echo "<li><a class=\"sidenav-link\" href=\"festival.php\">Le Festival</a></li>";
+                                echo "<li><a class=\"sidenav-link\" href=\"experience.php\">Expérience</a></li>";
+                                echo "<li><a class=\"sidenav-link sidenav-link-active\" href=\"programmation.php\">Programmation</a></li>";
+                                echo "<li><a class=\"sidenav-link\" href=\"infos-pratiques.php\">Infos Pratiques</a></li>";
+                                break;
+                            case "infos-pratiques":
+                                echo "<li><a class=\"sidenav-link\" href=\"index.php\">Accueil</a></li>";
+                                echo "<li><a class=\"sidenav-link\" href=\"festival.php\">Le Festival</a></li>";
+                                echo "<li><a class=\"sidenav-link\" href=\"experience.php\">Expérience</a></li>";
+                                echo "<li><a class=\"sidenav-link\" href=\"programmation.php\">Programmation</a></li>";
+                                echo "<li><a class=\"sidenav-link sidenav-link-active\" href=\"infos-pratiques.php\">Infos Pratiques</a></li>";
+                                break;
+                        }
+                        ?>
                     </ul>
                 </div>
                 <div class="col-12">
