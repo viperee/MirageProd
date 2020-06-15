@@ -1,3 +1,4 @@
+@import "fonts.scss";
 .close {
   cursor: pointer;
 }
@@ -41,9 +42,7 @@
 }
 
 .sidenav-link{
-  font-family: proxima-nova, sans-serif;
-  font-style: normal;
-  font-weight: 700;
+  font-family: Proxima Nova Bold;
   font-size: 45px;
   color: white;
   text-transform: uppercase;

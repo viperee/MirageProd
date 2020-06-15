@@ -1,3 +1,31 @@
+@font-face {
+  font-family: Proxima Nova Thin;
+  src: url("../fonts/proxima_nova_thin.otf"); }
+
+@font-face {
+  font-family: Proxima Nova Light;
+  src: url("../fonts/proxima_nova_light.otf"); }
+
+@font-face {
+  font-family: Proxima Nova Bold;
+  src: url("../fonts/proxima_nova_bold.otf"); }
+
+@font-face {
+  font-family: Proxima Nova ExtraBold;
+  src: url("../fonts/proxima_nova_extrabold.otf"); }
+
+@font-face {
+  font-family: Proxima Nova Black;
+  src: url("../fonts/proxima_nova_black.otf"); }
+
+@font-face {
+  font-family: Proxima Nova Regular;
+  src: url("../fonts/proxima_nova_regular.otf"); }
+
+@font-face {
+  font-family: Proxima Nova Medium;
+  src: url("../fonts/proxima_nova_medium.ttf"); }
+
 .close {
   cursor: pointer; }
 
@@ -34,9 +62,7 @@
   height: -webkit-fill-available; }
 
 .sidenav-link {
-  font-family: proxima-nova, sans-serif;
-  font-style: normal;
-  font-weight: 700;
+  font-family: Proxima Nova Bold;
   font-size: 45px;
   color: white;
   text-transform: uppercase;

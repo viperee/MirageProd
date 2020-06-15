@@ -52,26 +52,8 @@ body {
 #lignes {
   background: #000000; }
 
-.defiliant-banner-wrapper {
-  height: 48px;
-  position: fixed;
-  bottom: 0;
-  width: 100%; }
-  .defiliant-banner-wrapper p {
-    font-family: proxima-nova, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 39px;
-    text-transform: uppercase;
-    animation: defilement-rtl 5s infinite linear;
-    white-space: nowrap;
-    margin: 0; }
+.container h1 {
+  margin: 0; }
 
-.defiliant-banner-wrapper p:hover {
-  animation-play-state: paused; }
-
-@keyframes defilement-rtl {
-  0% {
-    transform: translate3d(0, 0, 0); }
-  100% {
-    transform: translate3d(100%, 0, 0); } }
+.container h2 {
+  margin: -8.5% 0 0 0; }
