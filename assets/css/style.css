@@ -74,6 +74,9 @@
   font-family: Proxima Nova Medium;
   src: url("../fonts/proxima_nova_medium.ttf"); }
 
+body {
+  margin-bottom: 0; }
+
 h1 {
   font-family: Proxima Nova ExtraBold;
   -webkit-text-stroke: 1px;

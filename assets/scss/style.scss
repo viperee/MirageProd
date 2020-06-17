@@ -1,6 +1,9 @@
 @import 'color.scss';
 @import "fonts.scss";
 
+body{
+  margin-bottom: 0;
+}
 h1 {
   font-family: Proxima Nova ExtraBold;
   -webkit-text-stroke: 1px;
