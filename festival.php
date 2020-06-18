@@ -4,10 +4,10 @@
 <head>
     <title>Festival</title>
     <?php include("head.php"); ?>
+    <link rel="stylesheet" type="text/css" href="assets/css/festival.css">
 </head>
 <body class="background-noir">
 <?php include("header.php"); ?>
-<link rel="stylesheet" type="text/css" href="assets/css/festival.css">
 
 <main>
     <div class="container-fluid">
@@ -18,7 +18,7 @@
         </div>
         <div class="row">
             <div class="col-6 offset-2">
-                <p class="text-labeur color-white">Le Mirage Festival propose à travers une programmation ambitieuse et
+                <p class="text-labeur color-white text-left">Le Mirage Festival propose à travers une programmation ambitieuse et
                     pluridisciplinaire, un panorama des cultures numériques. Pour rendre
                     compte de la richesse de cette création contemporaine nourrie par les
                     technologies, le festival propose un format unique s’articulant autour
@@ -34,16 +34,16 @@
             <div id="festival-details" class="background-white">
                 <div class="row">
                     <div class="col festival-details-text">
-                        <h2 class="color-noir">Cosmogonie</h2>
-                        <h2 class="color-noir">Cosmogonie</h2>
-                        <h2 class="color-noir">Cosmogonie</h2>
-                        <h2 class="color-noir">Cosmogonie</h2>
-                        <h2 class="color-noir">Cosmogonie</h2>
-                        <h2 class="color-noir">Cosmogonie</h2>
+                        <h3 class="color-noir">Cosmogonie</h3>
+                        <h3 class="color-noir">Cosmogonie</h3>
+                        <h3 class="color-noir">Cosmogonie</h3>
+                        <h3 class="color-noir">Cosmogonie</h3>
+                        <h3 class="color-noir">Cosmogonie</h3>
+                        <h3 class="color-noir">Cosmogonie</h3>
                     </div>
                     <div class="col-1"></div>
                     <div class="col festival-details-text">
-                        <p class="text-labeur">
+                        <p class="text-labeur text-left">
                             Orbitant autour de la thématique spatiale, cette huitième édition du Mirage Festival se
                             penche sur la façon dont les artistes abordent différentes approches de notre relation au
                             cosmos et sonde la manière dont la conquête spatiale, depuis ses débuts, a influencé et

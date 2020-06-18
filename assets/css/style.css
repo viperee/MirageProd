@@ -88,6 +88,11 @@ h1 {
 h2 {
   font-family: Proxima Nova Bold;
   color: white;
+  font-size: 87px; }
+
+h3 {
+  font-family: Proxima Nova Bold;
+  color: white;
   text-transform: uppercase;
   font-size: 79px; }
 
@@ -96,12 +101,14 @@ h4 {
   font-size: 49px;
   text-transform: uppercase; }
 
+button {
+  cursor: pointer; }
+
 .text-labeur {
   font-family: Proxima Nova Light;
   font-style: normal;
   font-weight: 300;
-  font-size: 26px;
-  text-align: left; }
+  font-size: 26px; }
 
 .btn-with-icon {
   width: 262px;
@@ -121,6 +128,28 @@ h4 {
     color: white; }
   .btn-with-icon:hover span {
     color: white; }
+
+.btn-with-icon-black {
+  width: 262px;
+  height: 62px;
+  background-color: #000000;
+  border: none; }
+  .btn-with-icon-black img {
+    margin-right: 17.8px;
+    vertical-align: sub; }
+  .btn-with-icon-black span {
+    font-family: Proxima Nova Bold;
+    text-transform: uppercase;
+    font-size: 19px;
+    color: white; }
+
+.btn-with-icon-black:hover {
+  background-color: white;
+  border: 1px solid #000000; }
+  .btn-with-icon-black:hover img {
+    color: #000000; }
+  .btn-with-icon-black:hover span {
+    color: #000000; }
 
 .position-fixed-bottom {
   position: fixed;

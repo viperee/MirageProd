@@ -1,9 +1,10 @@
 @import 'color.scss';
 @import "fonts.scss";
 
-body{
+body {
   margin-bottom: 0;
 }
+
 h1 {
   font-family: Proxima Nova ExtraBold;
   -webkit-text-stroke: 1px;
@@ -16,22 +17,33 @@ h1 {
 h2 {
   font-family: Proxima Nova Bold;
   color: white;
+  font-size: 87px;
+}
+
+h3 {
+  font-family: Proxima Nova Bold;
+  color: white;
   text-transform: uppercase;
   font-size: 79px;
 }
+
 h4 {
   font-family: Proxima Nova Bold;
   font-size: 49px;
   text-transform: uppercase;
 }
 
-.text-labeur{
+button {
+  cursor: pointer;
+}
+
+.text-labeur {
   font-family: Proxima Nova Light;
   font-style: normal;
   font-weight: 300;
   font-size: 26px;
-  text-align: left;
 }
+
 .btn-with-icon {
   width: 262px;
   height: 62px;
@@ -61,15 +73,50 @@ h4 {
     color: white;
   }
 }
-.position-fixed-bottom{
+
+.btn-with-icon-black {
+  width: 262px;
+  height: 62px;
+  background-color: $color-noir;
+  border: none;
+
+  img {
+    margin-right: 17.8px;
+    vertical-align: sub;
+  }
+
+  span {
+    font-family: Proxima Nova Bold;
+    text-transform: uppercase;
+    font-size: 19px;
+    color: white;
+  }
+}
+
+.btn-with-icon-black:hover {
+  background-color: white;
+  border: 1px solid $color-noir;
+
+  img {
+    color: $color-noir;
+  }
+
+  span {
+    color: $color-noir;
+  }
+}
+
+.position-fixed-bottom {
   position: fixed;
   bottom: 0;
 }
-.defiliant-banner-wrapper{
+
+.defiliant-banner-wrapper {
   height: 44px;
   width: 100%;
   overflow: hidden;
-  p{
+
+  p {
     font-family: Proxima Nova Bold;
     font-size: 39px;
     text-transform: uppercase;
@@ -79,14 +126,16 @@ h4 {
     will-change: transform;
   }
 }
-.defiliant-banner-wrapper p:hover{
+
+.defiliant-banner-wrapper p:hover {
   animation-play-state: paused;
 }
+
 @keyframes defilement-rtl {
   0% {
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
   }
   100% {
-    transform: translate3d(100%,0,0);
+    transform: translate3d(100%, 0, 0);
   }
 }

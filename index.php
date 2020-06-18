@@ -12,7 +12,7 @@
 <main>
     <div class="container">
         <h1 class="text-center">Cosmogonie</h1>
-        <h2 class="text-center">Cosmogonie</h2>
+        <h3 class="text-center">Cosmogonie</h3>
     </div>
     <div id="lignes"></div>
     <div class="background-white defiliant-banner-wrapper position-fixed-bottom">
