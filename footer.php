@@ -22,7 +22,7 @@
         <input id="newsletter-mail" type="text" placeholder="Adresse Email"><button id="btn-newsletter-mail" class="btn-with-icon"><span>S'inscrire</span></button>
     </div>
     <div class="col-1 offset-1 margin-vertical-center">
-        <img src="assets/icons/footer-arrow.svg">
+        <img id="footer-arrow" src="assets/icons/footer-arrow.svg">
     </div>
 </div>
 <div id="footer-copyright" class="row background-white">
