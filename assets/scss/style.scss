@@ -3,6 +3,7 @@
 
 body {
   margin-bottom: 0;
+  background-color: $color-noir;
 }
 
 h1 {
@@ -90,6 +91,27 @@ button {
     text-transform: uppercase;
     font-size: 19px;
     color: white;
+  }
+}
+
+
+.btn-with-icon-black-no-hover {
+  height: 75px;
+  background-color: $color-noir;
+  border: none;
+
+  img {
+    margin-right: 21.8px;
+    vertical-align: sub;
+    padding-left: 1em;
+  }
+
+  span {
+    font-family: Proxima Nova Bold;
+    text-transform: uppercase;
+    font-size: 19px;
+    color: white;
+    padding-right: 2em;
   }
 }
 

@@ -2,7 +2,7 @@
 <html lang="fr-FR">
 <?php $page = 'experience'; ?>
 <head>
-    <title>TITRE</title>
+    <title>Expérience</title>
     <?php include("head.php"); ?>
     <link rel="stylesheet" type="text/css" href="assets/css/experience.css">
 </head>

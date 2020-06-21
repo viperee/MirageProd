@@ -131,7 +131,7 @@
 
 <!--IMPORTS JS-->
 <?php include("script.php"); ?>
-<!--/IMPORTS JS-->
 <script src="assets/js/festival.js"></script>
+<!--/IMPORTS JS-->
 </body>
 </html>
