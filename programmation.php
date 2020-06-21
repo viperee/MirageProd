@@ -32,9 +32,9 @@
         </ul>
         <div class="row mt-4 mr-0 ml-0 background-solitude">
             <div class="offset-1">
-                <button class="btn-with-icon-black-no-hover"><img src="assets/icons/arrow.svg"
+                <a href="assets/media/download/programme_mirage.pdf" download><button class="btn-with-icon-black-no-hover"><img src="assets/icons/arrow.svg"
                                                                   alt="Télécharger l'application"><span>Telecharger le programme</span>
-                </button>
+                </button></a>
             </div>
             <div class="offset-6 margin-vertical-center">
                 <span class="switch-text">Spécial enfants</span>
@@ -52,13 +52,28 @@
                             <div class="timeline__content">
                                 <div id="accordion">
                                     <div class="group">
-                                        <span>Section 1</span>
-                                        <div>
-                                            <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-                                                ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-                                                amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo
-                                                ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque
-                                                vulputate.</p>
+                                        <div class="header-accordion">
+                                            <div class="header-accordion-content">
+                                                <span class="header-accordion-title">Cosmogonie</span>
+                                                <p class="header-accordion-text">Hydrogeny<br>
+                                                    Orbihedron<br>
+                                                    Noise Signal Silence
+                                                </p>
+                                                <span class="header-accordion-footer">Meca</span>
+                                            </div>
+                                            <div class="header-accordion-time">
+                                                <p class="header-accordion-time-text">10h30<br>
+                                                    I<br>
+                                                    13h</p>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="accordion-content">
+                                            <img src="assets/media/img/hydrogeny.svg">
+                                            <span class="accordion-content-title">Hydrogeny</span>
+                                            <p>Avec Hydrogeny, le duo nous donne à voir l’atome le plus simple de la nature, l’hydrogène, dont la forme terrestre la plus répandue se trouve dans la composition de l’eau.</p>
+                                            <span class="accordion-content-footer">Evelina Domnitch - Dmitry Gelfand</span>
                                         </div>
                                     </div>
                                 </div>

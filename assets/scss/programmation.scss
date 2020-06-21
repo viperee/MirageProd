@@ -159,4 +159,45 @@ input:checked + .slider:before {
   vertical-align: -webkit-baseline-middle;
   margin-right: 18px;
 }
+.header-accordion-title{
+  font-family: Proxima Nova Bold;
+  font-size: 27px;
+}
+.header-accordion-text{
+  font-family: Proxima Nova Regular;
+  font-size: 32px !important;
+  margin: 0 !important;
+}
+.header-accordion-footer{
+  font-family: Proxima Nova SemiBold;
+  font-size: 24px !important;
+}
+.header-accordion-time{
+  display: flex;
+}
+.header-accordion-time-text{
+  font-family: Proxima Nova Light;
+  font-size: 29px !important;
+  text-align: center;
+}
+.accordion-content{
+  overflow: inherit !important;
+  img{
+    float: left;
+    margin-right: 29px;
+  }
+  p{
+    font-family: Proxima Nova Regular;
+    font-size: 22px !important;
+    margin: 12px 0 0;
+  }
+}
+.accordion-content-title{
+  font-family: Proxima Nova Bold;
+  font-size: 22px;
+}
+.accordion-content-footer{
+  font-family: Proxima Nova SemiBold;
+  font-size: 21px;
+}
 
