@@ -18,7 +18,8 @@
         </div>
         <div class="row">
             <div class="col-6 offset-2">
-                <p class="text-labeur color-white text-left">Le Mirage Festival propose à travers une programmation ambitieuse et
+                <p class="text-labeur color-white text-left">Le Mirage Festival propose à travers une programmation
+                    ambitieuse et
                     pluridisciplinaire, un panorama des cultures numériques. Pour rendre
                     compte de la richesse de cette création contemporaine nourrie par les
                     technologies, le festival propose un format unique s’articulant autour
@@ -27,7 +28,20 @@
         </div>
     </div>
     <div class="background-white defiliant-banner-wrapper festival-banner">
-        <p>Le festival</p>
+        <span class="defiliant-banner-text"
+              data-title="Le festival">
+            <span data-title="Le festival">
+                <span data-title="Le festival">
+                    <span data-title="Le festival">
+                <span data-title="Le festival">
+                    <span data-title="Le festival">
+                    <span data-title="Le festival"> Le festival </span>
+                </span>
+                </span>
+            </span>
+                </span>
+            </span>
+        </span>
     </div>
     <div class="container-fluid ">
         <div class="row background-solitude festival-description-wrapper">
@@ -62,62 +76,62 @@
                 </div>
                 <div class="row">
                     <div id="ambiance-dj">
-                        <img id="img-ambiance-main" src="assets/media/img/ambiance1.jpg">
+                        <img id="img-ambiance-main" src="assets/media/img/ambiance1-full.svg">
                     </div>
                     <div>
                         <div class="row">
                             <div class="col-4">
-                                <img class="img-ambiance" src="assets/media/img/ambiance1.jpg">
+                                <img class="img-ambiance" src="assets/media/img/ambiance1.svg">
                             </div>
                             <div class="col-4">
-                                <img class="img-ambiance" src="assets/media/img/ambiance2.jpg">
+                                <img class="img-ambiance" src="assets/media/img/ambiance2.svg">
                             </div>
                             <div class="col-4">
-                                <img class="img-ambiance" src="assets/media/img/ambiance3.jpg">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-4">
-                                <img class="img-ambiance" src="assets/media/img/ambiance4.jpg">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-ambiance" src="assets/media/img/ambiance5.jpg">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-ambiance" src="assets/media/img/ambiance6.jpg">
+                                <img class="img-ambiance" src="assets/media/img/ambiance3.svg">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-4">
-                                <img class="img-ambiance" src="assets/media/img/ambiance7.jpg">
+                                <img class="img-ambiance" src="assets/media/img/ambiance4.svg">
                             </div>
                             <div class="col-4">
-                                <img class="img-ambiance" src="assets/media/img/ambiance8.jpg">
+                                <img class="img-ambiance" src="assets/media/img/ambiance5.svg">
                             </div>
                             <div class="col-4">
-                                <img class="img-ambiance" src="assets/media/img/ambiance9.jpg">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-4">
-                                <img class="img-ambiance" src="assets/media/img/ambiance10.jpg">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-ambiance" src="assets/media/img/ambiance11.jpg">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-ambiance" src="assets/media/img/ambiance12.jpg">
+                                <img class="img-ambiance" src="assets/media/img/ambiance6.svg">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-4">
-                                <img class="img-ambiance" src="assets/media/img/ambiance13.jpg">
+                                <img class="img-ambiance" src="assets/media/img/ambiance7.svg">
                             </div>
                             <div class="col-4">
-                                <img class="img-ambiance" src="assets/media/img/ambiance14.jpg">
+                                <img class="img-ambiance" src="assets/media/img/ambiance8.svg">
                             </div>
                             <div class="col-4">
-                                <img class="img-ambiance" src="assets/media/img/ambiance15.jpg">
+                                <img class="img-ambiance" src="assets/media/img/ambiance9.svg">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <img class="img-ambiance" src="assets/media/img/ambiance10.svg">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-ambiance" src="assets/media/img/ambiance11.svg">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-ambiance" src="assets/media/img/ambiance12.svg">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <img class="img-ambiance" src="assets/media/img/ambiance13.svg">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-ambiance" src="assets/media/img/ambiance14.svg">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-ambiance" src="assets/media/img/ambiance15.svg">
                             </div>
                         </div>
                     </div>
