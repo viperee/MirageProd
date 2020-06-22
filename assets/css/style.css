@@ -177,22 +177,38 @@ button {
 
 .defiliant-banner-wrapper {
   height: 44px;
-  width: 100%;
-  overflow: hidden; }
-  .defiliant-banner-wrapper p {
-    font-family: Proxima Nova Bold;
-    font-size: 39px;
-    text-transform: uppercase;
-    animation: defilement-rtl 5s infinite linear;
-    white-space: nowrap;
-    margin: 0;
-    will-change: transform; }
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  width: -webkit-fill-available; }
 
-.defiliant-banner-wrapper p:hover {
+.defiliant-banner-wrapper .defiliant-banner-text:hover {
   animation-play-state: paused; }
+
+.defiliant-banner-text {
+  font-family: Proxima Nova Bold;
+  font-size: 39px;
+  text-transform: uppercase;
+  animation: defilement-rtl 10s linear infinite;
+  margin: 0;
+  will-change: transform;
+  position: absolute;
+  width: max-content;
+  animation-play-state: running;
+  display: flex; }
+  .defiliant-banner-text span {
+    display: flex; }
+
+.defiliant-banner-text span:before {
+  content: attr(data-title);
+  margin-right: .25em; }
+
+.defiliant-banner-text span:after {
+  content: attr(data-title);
+  margin-left: .25em; }
 
 @keyframes defilement-rtl {
   0% {
-    transform: translate3d(0, 0, 0); }
+    transform: translate3D(calc((-100%/7) - .0625em), 0, 0); }
   100% {
-    transform: translate3d(100%, 0, 0); } }
+    transform: translate3D(0, 0, 0); } }
