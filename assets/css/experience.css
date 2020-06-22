@@ -1,20 +1,28 @@
+h2 {
+  line-height: 80px; }
+
 #fred-laura-container h3 {
   margin: 0; }
 
-#experience-img {
-  width: 100%; }
-
-#videoBG {
-  width: 100%; }
+#ambiance-soir {
+  top: 40%; }
 
 .block-experience {
   position: relative;
   width: 100%;
   margin: auto;
   display: block; }
+  .block-experience video {
+    width: 100%; }
+
+.media-container img {
+  width: 100%; }
+
+.media-container video {
+  width: 100%; }
 
 .block-experience-text-wrapper {
-  width: 50%;
+  width: 35%;
   position: absolute;
   top: 60%;
   right: 208px;
@@ -27,6 +35,9 @@
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1; }
+  .text-video p {
+    margin-left: auto;
+    width: 75%; }
 
 .block-experience-text-wrapper-left {
   width: 50%;
@@ -77,8 +88,11 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(0deg, #161a2d 3%, rgba(22, 26, 45, 0.9) 10%, rgba(22, 26, 45, 0.4) 50%, rgba(22, 26, 45, 0.9) 90%, #161a2d 97%); }
+  background: transparent linear-gradient(180deg, #000000 0%, #66666666 48%, #000000 100%) 0% 0% no-repeat padding-box; }
 
 .experience-text-only {
   padding-top: 485px;
   padding-bottom: 485px; }
+
+.text-labeur {
+  line-height: 40px; }
