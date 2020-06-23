@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
-<?php $page = 'TODO'; ?>
+<?php $page = 'infos-pratiques'; ?>
 <head>
     <title>TITRE</title>
     <?php include("head.php"); ?>

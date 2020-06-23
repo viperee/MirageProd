@@ -13,7 +13,7 @@
             <div id="sidenav-menu" class="row">
                 <div class="col-12">
                     <button class="btn-with-icon btn-icon-ticket background-white">
-                        <img src="assets/icons/ticket.svg" alt="Menu"><span>Billeterie</span>
+                        <img src="assets/icons/ticket_black.svg" alt="Menu"><span>Billeterie</span>
                     </button>
                 </div>
                 <div class="col-12">
@@ -55,6 +55,12 @@
                                 echo "<li><a class=\"sidenav-link\" href=\"programmation.php\">Programmation</a></li>";
                                 echo "<li><a class=\"sidenav-link sidenav-link-active\" href=\"infos-pratiques.php\">Infos Pratiques</a></li>";
                                 break;
+                            default:
+                                echo "<li><a class=\"sidenav-link\" href=\"index.php\">Accueil</a></li>";
+                                echo "<li><a class=\"sidenav-link\" href=\"festival.php\">Le Festival</a></li>";
+                                echo "<li><a class=\"sidenav-link\" href=\"experience.php\">Expérience</a></li>";
+                                echo "<li><a class=\"sidenav-link\" href=\"programmation.php\">Programmation</a></li>";
+                                echo "<li><a class=\"sidenav-link\" href=\"infos-pratiques.php\">Infos Pratiques</a></li>";
                         }
                         ?>
                     </ul>

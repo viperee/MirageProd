@@ -56,6 +56,10 @@
   width: 15px !important;
   right: -7.5px !important; }
 
+.timeline__content {
+  padding: 6% !important;
+  border: none !important; }
+
 .timeline__item--right:after {
   left: -7.5px !important; }
 
@@ -92,8 +96,8 @@
 
 .ui-tabs .ui-tabs-panel {
   background: #EEF0F4;
-  padding-right: 350px;
-  padding-left: 350px; }
+  padding-right: 24%;
+  padding-left: 24%; }
 
 .ui-tabs .ui-tabs-nav li:hover {
   background-color: white !important; }
@@ -189,16 +193,23 @@ input:checked + .slider:before {
 
 .header-accordion-title {
   font-family: Proxima Nova Bold;
-  font-size: 27px; }
+  font-size: 27px;
+  margin-right: 20px; }
+
+.header-accordion-icon {
+  vertical-align: text-top;
+  cursor: pointer; }
 
 .header-accordion-text {
   font-family: Proxima Nova Regular;
   font-size: 32px !important;
-  margin: 0 !important; }
+  margin: 0 !important;
+  line-height: normal !important; }
 
 .header-accordion-footer {
   font-family: Proxima Nova SemiBold;
-  font-size: 24px !important; }
+  font-size: 24px !important;
+  text-transform: uppercase !important; }
 
 .header-accordion-time {
   display: flex; }
@@ -206,10 +217,13 @@ input:checked + .slider:before {
 .header-accordion-time-text {
   font-family: Proxima Nova Light;
   font-size: 29px !important;
-  text-align: center; }
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0; }
 
 .accordion-content {
-  overflow: inherit !important; }
+  overflow: inherit !important;
+  margin-top: 79px; }
   .accordion-content img {
     float: left;
     margin-right: 29px; }
