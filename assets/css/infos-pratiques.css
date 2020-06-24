@@ -1,5 +1,166 @@
+/*--------------------------------------------------------------//
+//                          Couleur                            //
+//------------------------------------------------------------*/
+.color-noir {
+  color: #000000; }
+
+.color-gunmetal {
+  color: #2A3236; }
+
+.color-eclipse {
+  color: #383838; }
+
+.color-storm-grey {
+  color: #717276; }
+
+.color-dim-gray {
+  color: #707070; }
+
+.color-suva-grey {
+  color: #939393; }
+
+.color-lavender-grey {
+  color: #C6C6D1; }
+
+.color-solitude {
+  color: #EEF0F4; }
+
+.color-whisper {
+  color: #EAEAEA; }
+
+.color-white {
+  color: white; }
+
+/*----------------------------------------------------------------------//
+//                          Couleur de fond                            //
+//--------------------------------------------------------------------*/
+.background-noir {
+  background-color: #000000; }
+
+.background-white {
+  background-color: white; }
+
+.background-degrade {
+  background: linear-gradient(to right, #000000, #FFFFFF, #000000); }
+
+.background-solitude {
+  background-color: #EEF0F4; }
+
 #tabs ul {
   list-style-type: none; }
 
 #tabs ul li {
   display: inline; }
+
+#tabs-container {
+  padding-top: 150px;
+  padding-bottom: 150px; }
+
+.btn img {
+  margin-right: 17.8px;
+  vertical-align: sub; }
+
+.btn span {
+  font-family: Proxima Nova Bold;
+  text-transform: uppercase;
+  font-size: 19px;
+  color: black; }
+
+.btn:hover {
+  background-color: black;
+  border: 1px solid white; }
+  .btn:hover span {
+    color: white; }
+
+#btn-covoiturer {
+  width: 250px;
+  height: 75px;
+  background-color: white;
+  border: 4px solid #2A3236; }
+  #btn-covoiturer span {
+    font-family: Proxima Nova Bold;
+    font-size: 21px;
+    color: #2A3236;
+    text-transform: uppercase; }
+
+#btn-benevole {
+  width: 319px;
+  height: 75px;
+  background-color: white;
+  border: 4px solid #2A3236; }
+  #btn-benevole span {
+    font-family: Proxima Nova Bold;
+    font-size: 21px;
+    color: #2A3236;
+    text-transform: uppercase; }
+
+#mailMirageFestival {
+  text-decoration: none;
+  font-family: Proxima Nova SemiBold;
+  font-size: 32px;
+  color: #2A3236; }
+
+.btn-active {
+  background-color: black;
+  border: 1px solid white; }
+  .btn-active img {
+    margin-right: 17.8px;
+    vertical-align: sub; }
+  .btn-active span {
+    font-family: Proxima Nova Bold;
+    text-transform: uppercase;
+    font-size: 19px;
+    color: white; }
+
+#btn-trajet {
+  width: 262px;
+  height: 62px; }
+
+#btn-sur-place {
+  width: 264px;
+  height: 62px; }
+
+#btn-hebergement {
+  width: 304px;
+  height: 62px; }
+
+.btn-active:focus {
+  outline: none; }
+
+.liens-habitants {
+  text-decoration: none;
+  font-family: Proxima Nova SemiBold;
+  font-size: 32px;
+  color: #2A3236; }
+
+.titre-accordeon {
+  font-family: Proxima Nova Bold;
+  font-size: 38px;
+  display: inline; }
+
+.titre-accordeon-icon {
+  cursor: pointer; }
+
+.titre-accordeon:before {
+  content: "\2022";
+  color: #939393;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 85px;
+  vertical-align: sub;
+  margin-right: 42px;
+  margin-left: 62px; }
+
+.sous-titre-accordeon {
+  font-family: Proxima Nova Bold;
+  font-size: 33px;
+  margin-left: 135px;
+  margin-top: 1em;
+  margin-bottom: 0; }
+
+.texte-accordeon {
+  font-family: Proxima Nova Regular;
+  font-size: 33px;
+  margin-left: 135px;
+  margin-top: 0;
+  margin-bottom: 0; }

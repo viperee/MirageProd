@@ -6,7 +6,9 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 
 <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
-<link rel="stylesheet" href="node_modules/jquery-ui-dist/jquery-ui.min.css">
+<?php if($page != 'infos-pratiques')
+    echo '<link rel="stylesheet" href="node_modules/jquery-ui-dist/jquery-ui.min.css">'
+?>
 <link rel="stylesheet" href="assets/css/utility.css">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/header.css">
