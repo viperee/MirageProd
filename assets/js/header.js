@@ -9,13 +9,13 @@ $().ready(() => {
 
 function hoverIn() {
     let imgSrc = $(this).find('img').attr('src');
-    imgSrc = imgSrc.replace("_black.svg", ".svg");
+    imgSrc = imgSrc.replace("-black.svg", ".svg");
     $(this).find('img').attr('src', imgSrc);
 }
 
 function hoverOut() {
     let imgSrc = $(this).find('img').attr('src');
-    imgSrc = imgSrc.replace(".svg", "_black.svg");
+    imgSrc = imgSrc.replace(".svg", "-black.svg");
     console.log(imgSrc);
     $(this).find('img').attr('src', imgSrc);
 }
