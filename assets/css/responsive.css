@@ -341,6 +341,3 @@
   .accordion-content img {
     float: left;
     margin-right: 20px; } }
-
-@media only screen and (min-width: 520px) and (max-width: 979px) {
-  /* For tablets: */ }
