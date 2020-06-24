@@ -13,7 +13,7 @@
             <div id="sidenav-menu" class="row">
                 <div class="col-12">
                     <button class="btn-with-icon btn-icon-ticket background-white">
-                        <img src="assets/icons/ticket_black.svg" alt="Menu"><span>Billeterie</span>
+                        <img src="assets/icons/ticket-black.svg" alt="Menu"><span>Billeterie</span>
                     </button>
                 </div>
                 <div class="col-12">
