@@ -1,0 +1,381 @@
+@import "color.scss";
+@import "fonts.scss";
+
+@media only screen and (min-width: 1580px) {
+    /* For wide screens: */
+    h1 {
+        font-family: Proxima Nova ExtraBold;
+        -webkit-text-stroke: 1px;
+        -webkit-text-stroke-color: $color-dim-gray;
+        color: transparent;
+        text-transform: uppercase;
+        font-size: 150px;
+      }
+      h2 {
+        font-family: Proxima Nova Bold;
+        color: white;
+        font-size: 87px;
+      }
+      
+      h3 {
+        font-family: Proxima Nova Bold;
+        color: white;
+        text-transform: uppercase;
+        font-size: 79px;
+      }
+      
+      h4 {
+        font-family: Proxima Nova Bold;
+        font-size: 49px;
+        text-transform: uppercase;
+      }
+      h5 {
+        font-family: Proxima Nova Bold;
+        font-size: 39px;
+        text-transform: uppercase;
+      }
+
+      .container h3 {
+          margin: -8.5% 0 0 0;
+        }
+      
+      button {
+        cursor: pointer;
+      }
+      
+      .text-labeur {
+        font-family: Proxima Nova Light;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 26px;
+        line-height: 48px;
+      }
+      .defiliant-banner-text {
+        font-family: Proxima Nova Bold;
+        font-size: 39px;
+        text-transform: uppercase;
+        animation: defilement-rtl 5s linear infinite;
+        margin: 0;
+        will-change: transform;
+        position: absolute;
+        width: max-content;
+        animation-play-state: running;
+        display: flex;
+        span{
+          display: flex;
+        }
+      }
+      .defiliant-banner-wrapper {
+        height: 44px;
+        overflow: hidden;
+        white-space: nowrap;
+        display: flex;
+        width: -webkit-fill-available;
+      }
+      .sidenav-link{
+        font-family: Proxima Nova Bold;
+        font-size: 45px;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+
+      //FESTIVAL
+
+      #festival-details {
+        margin-right: 255px;
+        margin-left: 255px;
+      
+        h3 {
+          margin: 0 0 0 105px;
+        }
+      
+        p {
+          margin: 0 105px 0 0;
+        }
+      }
+      .festival-description-wrapper {
+        padding-top: 228px;
+      }
+      .festival-banner {
+        margin-top: 160.96px;
+      }
+      .ambiance-title {
+        font-family: Proxima Nova ExtraBold;
+        font-size: 110px;
+        text-transform: uppercase;
+        margin-left: auto;
+        margin-top: 325px;
+        margin-bottom: 25px;
+        -webkit-text-stroke: 1px;
+        -webkit-text-stroke-color: #707070;
+        color: transparent;
+      }
+      #img-ambiance-main{
+        width: 716px;
+        height: 842px;
+      }
+      .img-ambiance{
+        width: 197px;
+        height: 144px;
+        margin-bottom: 26px;
+      }
+
+      //FOOTER
+
+      #btn-newsletter-mail{
+        width: 160px;
+        height: 53px;
+      }
+
+      .btn-with-icon span {
+        font-family: Proxima Nova Bold;
+        text-transform: uppercase;
+        font-size: 19px;
+    }
+
+    //PROGRAMMATION
+
+    .header-accordion-text{
+        font-family: Proxima Nova Regular;
+        font-size: 32px !important;
+        margin: 0 !important;
+        line-height: normal !important;
+      }
+
+      .header-accordion-time-text{
+        font-family: Proxima Nova Light;
+        font-size: 29px !important;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 0;
+      }
+
+      .header-accordion-footer{
+        font-family: Proxima Nova SemiBold;
+        font-size: 24px !important;
+        text-transform: uppercase !important;
+      }
+      .header-accordion-title{
+        font-family: Proxima Nova Bold;
+        font-size: 27px;
+        margin-right: 20px;
+      }
+      .accordion-content p{
+        font-family: Proxima Nova Regular;
+        font-size: 22px !important;
+        margin: 12px 0 0;
+      }
+    .accordion-content-footer{
+        font-family: Proxima Nova SemiBold;
+        font-size: 21px;
+      }
+      .accordion-content img{
+          float: left;
+          margin-right: 29px;
+      }
+
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1579px) {
+    /* For desktop: */
+    .col-2 {
+        max-width: 22.666667%;
+    }
+    .col-10 {
+        max-width: 75.333333%;
+    }
+
+    .offset-1 {
+        margin-left: 6.333333%;
+    }
+    .offset-6 {
+        margin-left: 42%;
+    }
+    .offset-7 {
+        margin-left: 53.333333%;
+    }
+    
+    
+
+    h1 {
+        font-family: Proxima Nova ExtraBold;
+        -webkit-text-stroke: 1px;
+        -webkit-text-stroke-color: $color-dim-gray;
+        color: transparent;
+        text-transform: uppercase;
+        font-size: 110px;
+      }
+      h2 {
+        font-family: Proxima Nova Bold;
+        color: white;
+        font-size: 66px;
+      }
+      
+      h3 {
+        font-family: Proxima Nova Bold;
+        color: white;
+        text-transform: uppercase;
+        font-size: 57px;
+      }
+      
+      h4 {
+        font-family: Proxima Nova Bold;
+        font-size: 39px;
+        text-transform: uppercase;
+      }
+      h5 {
+        font-family: Proxima Nova Bold;
+        font-size: 39px;
+        text-transform: uppercase;
+      }
+
+      .container h3 {
+        margin: -7.5% 0 0 0;
+      }
+      
+      button {
+        cursor: pointer;
+      }
+      
+      .text-labeur {
+        font-family: Proxima Nova Light;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 32px;
+      }
+      .defiliant-banner-text {
+        font-family: Proxima Nova Bold;
+        font-size: 25px;
+        text-transform: uppercase;
+        animation: defilement-rtl 5s linear infinite;
+        margin: 0;
+        will-change: transform;
+        position: absolute;
+        width: max-content;
+        animation-play-state: running;
+        display: flex;
+        span{
+          display: flex;
+        }
+      }
+      .defiliant-banner-wrapper {
+        height: 33px;
+        overflow: hidden;
+        white-space: nowrap;
+        display: flex;
+        width: -webkit-fill-available;
+      }
+      .sidenav-link{
+        font-family: Proxima Nova Bold;
+        font-size: 32px;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+
+    //FESTIVAL
+      
+    #festival-details {
+        margin-right: 255px;
+        margin-left: 255px;
+      
+        h3 {
+            margin: 0 0 36px 62px;
+        }
+      
+        p {
+          margin: 0 30px 0 0;
+        }
+      }
+      .festival-description-wrapper {
+        padding-top: 190px;
+      }
+      .festival-banner {
+        margin-top: 167px;
+      }
+      .ambiance-title {
+        font-family: Proxima Nova ExtraBold;
+        font-size: 77px;
+        text-transform: uppercase;
+        margin-left: auto;
+        margin-top: 325px;
+        margin-bottom: 25px;
+        -webkit-text-stroke: 1px;
+        -webkit-text-stroke-color: #707070;
+        color: transparent;
+      }
+      #img-ambiance-main{
+        width: 488px;
+        height: 572px;
+      }
+      .img-ambiance {
+        width: 124px;
+        height: 90px;
+        margin-bottom: 26px;
+    }
+
+    //FOOTER
+
+    #btn-newsletter-mail{
+        width: 117px;
+        height: 53px;
+      }
+      .btn-with-icon span {
+        font-family: Proxima Nova Bold;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+    //EXPERIENCE
+
+    .text-video-left {
+        margin-top: -16%;
+    }
+
+    //PROGRAMMATION
+
+    .header-accordion-text{
+        font-family: Proxima Nova Regular;
+        font-size: 22px !important;
+        margin: 0 !important;
+        line-height: normal !important;
+      }
+
+      .header-accordion-time-text{
+        font-family: Proxima Nova Light;
+        font-size: 25px !important;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 0;
+      }
+      .header-accordion-footer{
+        font-family: Proxima Nova SemiBold;
+        font-size: 20px !important;
+        text-transform: uppercase !important;
+      }
+      .header-accordion-title{
+        font-family: Proxima Nova Bold;
+        font-size: 25px;
+        margin-right: 20px;
+      }
+      .accordion-content p{
+        font-family: Proxima Nova Regular;
+        font-size: 17px !important;
+        margin: 12px 0 0;
+      }
+      .accordion-content-footer{
+        font-family: Proxima Nova SemiBold;
+        font-size: 17px;
+      }
+      .accordion-content img{
+        float: left;
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (min-width: 520px) and (max-width: 979px) {
+    /* For tablets: */
+    
+}

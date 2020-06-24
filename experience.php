@@ -5,8 +5,9 @@
     <title>Expérience</title>
     <?php include("head.php"); ?>
     <link rel="stylesheet" type="text/css" href="assets/css/experience.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 </head>
-<body class="background-noir">
+<body class="no-margin background-noir">
 <?php include("header.php"); ?>
 
 <main>

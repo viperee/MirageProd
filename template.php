@@ -5,7 +5,7 @@
     <title>TITRE</title>
     <?php include("head.php"); ?>
 </head>
-<body>
+<body class="no-margin">
 <?php include("header.php"); ?>
 
 <main>

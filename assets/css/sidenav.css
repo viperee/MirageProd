@@ -65,13 +65,6 @@
 #sidenav-content {
   height: -webkit-fill-available; }
 
-.sidenav-link {
-  font-family: Proxima Nova Bold;
-  font-size: 45px;
-  color: white;
-  text-transform: uppercase;
-  text-decoration: none; }
-
 .sidenav-link:hover {
   text-decoration: line-through; }
 

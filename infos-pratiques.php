@@ -4,9 +4,11 @@
 <head>
     <title>Infos Pratiques</title>
     <?php include("head.php"); ?>
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 </head>
-<body>
+<body class="no-margin">
 <?php include("header.php"); ?>
+
 
 <main>
     <div class="row">

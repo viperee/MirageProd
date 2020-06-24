@@ -5,9 +5,10 @@
     <title>Accueil</title>
     <?php include("head.php"); ?>
 </head>
-<body class="background-noir">
+<body class="no-margin background-noir">
 <?php include("header.php"); ?>
 <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 
 <main>
     <div class="container">

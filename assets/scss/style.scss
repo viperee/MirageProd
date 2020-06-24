@@ -6,49 +6,13 @@ body {
   background-color: $color-noir;
 }
 
-h1 {
-  font-family: Proxima Nova ExtraBold;
-  -webkit-text-stroke: 1px;
-  -webkit-text-stroke-color: $color-dim-gray;
-  color: transparent;
-  text-transform: uppercase;
-  font-size: 150px;
-}
 
-h2 {
-  font-family: Proxima Nova Bold;
-  color: white;
-  font-size: 87px;
-}
 
-h3 {
-  font-family: Proxima Nova Bold;
-  color: white;
-  text-transform: uppercase;
-  font-size: 79px;
-}
 
-h4 {
-  font-family: Proxima Nova Bold;
-  font-size: 49px;
-  text-transform: uppercase;
-}
-h5 {
-  font-family: Proxima Nova Bold;
-  font-size: 39px;
-  text-transform: uppercase;
-}
 
-button {
-  cursor: pointer;
-}
 
-.text-labeur {
-  font-family: Proxima Nova Light;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 26px;
-}
+
+
 
 .btn-with-icon {
   width: 262px;
@@ -138,32 +102,12 @@ button {
   bottom: 0;
 }
 
-.defiliant-banner-wrapper {
-  height: 44px;
-  overflow: hidden;
-  white-space: nowrap;
-  display: flex;
-  width: -webkit-fill-available;
-}
+
 
 .defiliant-banner-wrapper .defiliant-banner-text:hover {
   animation-play-state: paused;
 }
-.defiliant-banner-text {
-  font-family: Proxima Nova Bold;
-  font-size: 39px;
-  text-transform: uppercase;
-  animation: defilement-rtl 5s linear infinite;
-  margin: 0;
-  will-change: transform;
-  position: absolute;
-  width: max-content;
-  animation-play-state: running;
-  display: flex;
-  span{
-    display: flex;
-  }
-}
+
 
 .defiliant-banner-text span:before{
   content: attr(data-title);
@@ -183,4 +127,7 @@ button {
   100% {
     transform: translate3D(0,0,0)
   }
+}
+button {
+  border-color: transparent;
 }

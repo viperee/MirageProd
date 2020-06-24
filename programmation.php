@@ -6,19 +6,20 @@
     <?php include("head.php"); ?>
     <link rel="stylesheet" type="text/css" href="assets/css/programmation.css">
     <link rel="stylesheet" type="text/css" href="assets/css/timeline.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 </head>
-<body>
+<body class="no-margin">
 <?php include("header.php"); ?>
 
 <main>
-    <div class="row">
+    <div id="tabs" class="background-solitude">
+    <div class="row background-noir">
         <div class="offset-2">
             <h4 class="color-white">Programmation</h4>
         </div>
     </div>
-
-    <div id="tabs">
-        <ul class="background-noir">
+    <div class="background-noir">
+    <ul class="background-noir">
             <li><a href="#tabs-1"><span>Mercredi</span>
                     <p>08 Juillet</p></a></li>
             <li><a href="#tabs-2"><span>Jeudi</span>
@@ -30,6 +31,10 @@
             <li><a href="#tabs-5"><span>Dimanche</span>
                     <p>12 Juillet</p></a></li>
         </ul>
+    </div>
+
+    <div >
+        
         <div class="row mt-4 mr-0 ml-0 background-solitude">
             <div class="offset-1">
                 <a href="assets/media/download/programme_mirage.pdf" download>
@@ -831,6 +836,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </main>
 
