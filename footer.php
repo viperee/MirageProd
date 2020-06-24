@@ -5,8 +5,8 @@
         </div>
         <div class="col-2 offset-1">
             <ul>
-                <li><a class="footer-link">Contacts</a></li>
-                <li><a class="footer-link">Partenariats</a></li>
+                <li><a class="footer-link" href="contact.php">Contact</a></li>
+                <li><a class="footer-link" href="partenariats.php">Partenaires</a></li>
                 <li><a class="footer-link">Crédits</a></li>
                 <li><a class="footer-link">Mentions Légales</a></li>
             </ul>
