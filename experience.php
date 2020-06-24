@@ -14,7 +14,8 @@
     <div id="fred-laura-container" class="container text-center">
         <h3>- T’es où ?!</h3>
         <h3>- Au Mirage Festival !</h3>
-        <p class="text-labeur color-white">Fred et Laura, mercredi soir</p>
+        <p class="text-labeur color-white">Fred et Laura, mercredi soir</p></br></br></br></br></br></br>
+        <a href="./assets/media/video/aftermovie.mp4" target="_blank">Regarder la video</a>
     </div>
     <div class="block-experience">
         <video autoplay muted loop>

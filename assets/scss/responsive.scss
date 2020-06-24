@@ -175,6 +175,20 @@
           margin-right: 29px;
       }
 
+      //EXPERIENCE
+
+      #fred-laura-container a {
+        font-family: Proxima Nova Bold;
+        color: white;
+        font-size: 21px;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+      #fred-laura-container {
+        margin-top: 14%;
+        margin-bottom: 14%;
+    }
+
 }
 
 @media only screen and (min-width: 980px) and (max-width: 1579px) {
@@ -373,4 +387,18 @@
         float: left;
         margin-right: 20px;
     }
+
+    //EXPERIENCE
+
+    #fred-laura-container a {
+      font-family: Proxima Nova Bold;
+      color: white;
+      font-size: 21px;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+    #fred-laura-container {
+      margin-top: 16%;
+      margin-bottom: 15%;
+  }
 }

@@ -202,7 +202,16 @@
     font-size: 21px; }
   .accordion-content img {
     float: left;
-    margin-right: 29px; } }
+    margin-right: 29px; }
+  #fred-laura-container a {
+    font-family: Proxima Nova Bold;
+    color: white;
+    font-size: 21px;
+    text-transform: uppercase;
+    text-decoration: none; }
+  #fred-laura-container {
+    margin-top: 14%;
+    margin-bottom: 14%; } }
 
 @media only screen and (min-width: 980px) and (max-width: 1579px) {
   /* For desktop: */
@@ -340,4 +349,13 @@
     font-size: 17px; }
   .accordion-content img {
     float: left;
-    margin-right: 20px; } }
+    margin-right: 20px; }
+  #fred-laura-container a {
+    font-family: Proxima Nova Bold;
+    color: white;
+    font-size: 21px;
+    text-transform: uppercase;
+    text-decoration: none; }
+  #fred-laura-container {
+    margin-top: 16%;
+    margin-bottom: 15%; } }
