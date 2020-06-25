@@ -189,6 +189,72 @@
         margin-bottom: 14%;
     }
 
+    //INFOS PRATIQUES
+
+    .btn span {
+      font-family: Proxima Nova Bold;
+      text-transform: uppercase;
+      font-size: 19px;
+      color: black;
+    }
+    .btn-active span {
+      font-family: Proxima Nova Bold;
+      text-transform: uppercase;
+      font-size: 19px;
+      color: white;
+    }
+    .btn-with-icon {
+      width: 262px;
+      height: 62px;
+    }
+    #btn-trajet{
+      width: 262px;
+      height: 62px;
+    }
+    #btn-sur-place{
+      width: 264px;
+      height: 62px;
+    }
+    #btn-hebergement{
+      width: 304px;
+      height: 62px;
+    }
+    #tabs-container{
+      padding-top: 150px;
+      padding-bottom: 150px;
+    }
+    .titre-accordeon{
+      font-family: Proxima Nova Bold;
+      font-size: 38px;
+      display: inline;
+    }
+    .titre-accordeon:before{
+      content: "\2022";
+      color: $color-suva-grey;
+      font-weight: bold;
+      display: inline-block;
+      font-size: 85px;
+      vertical-align: sub;
+      margin-right: 42px;
+      margin-left: 62px;
+    }
+    .sous-titre-accordeon{
+      font-family: Proxima Nova Bold;
+      font-size: 33px;
+      margin-left: 135px;
+      margin-top: 1em;
+      margin-bottom: 0;
+    }
+    .texte-accordeon{
+      font-family: Proxima Nova Regular;
+      font-size: 33px;
+      margin-left: 135px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .container {
+      height: 125px;
+    }
 }
 
 @media only screen and (min-width: 980px) and (max-width: 1579px) {
@@ -401,4 +467,75 @@
       margin-top: 16%;
       margin-bottom: 15%;
   }
+
+  //INFOS PRATIQUES
+
+  .btn span {
+    font-family: Proxima Nova Bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: black;
+  }
+  .btn-active span {
+    font-family: Proxima Nova Bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+  }
+  .btn-with-icon {
+    width: 209px;
+    height: 62px;
+  }
+  #btn-trajet{
+    width: 190px;
+    height: 62px;
+  }
+  #btn-sur-place{
+    width: 197px;
+    height: 62px;
+  }
+  #btn-hebergement{
+    width: 238px;
+    height: 62px;
+  }
+  #tabs-container {
+    padding-top: 8%;
+    padding-bottom: 8%;
+  }
+  .titre-accordeon {
+    font-family: Proxima Nova Bold;
+    font-size: 30px;
+    display: inline;
+  }
+  .titre-accordeon:before{
+    content: "\2022";
+    color: $color-suva-grey;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 70px;
+    vertical-align: sub;
+    margin-right: 42px;
+    margin-left: 62px;
+  }
+  .container{
+    max-width: 68%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 93px;
+  }
+  .sous-titre-accordeon{
+    font-family: Proxima Nova Bold;
+    font-size: 27px;
+    margin-left: 135px;
+    margin-top: 1em;
+    margin-bottom: 0;
+  }
+  .texte-accordeon{
+    font-family: Proxima Nova Regular;
+    font-size: 26px;
+    margin-left: 135px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
 }
