@@ -262,7 +262,7 @@
     margin-left: 135px;
     margin-top: 0;
     margin-bottom: 0; }
-  .container {
+  #tabs .container {
     height: 125px; } }
 
 @media only screen and (min-width: 980px) and (max-width: 1579px) {
@@ -449,7 +449,7 @@
     vertical-align: sub;
     margin-right: 42px;
     margin-left: 62px; }
-  .container {
+  #tabs .container {
     max-width: 68%;
     margin-right: auto;
     margin-left: auto;
