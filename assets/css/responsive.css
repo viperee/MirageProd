@@ -174,6 +174,10 @@
     font-family: Proxima Nova Bold;
     text-transform: uppercase;
     font-size: 19px; }
+  #social-network span img {
+    margin-right: 20px;
+    cursor: pointer;
+    width: 12%; }
   .header-accordion-text {
     font-family: Proxima Nova Regular;
     font-size: 32px !important;
@@ -262,8 +266,9 @@
     margin-left: 135px;
     margin-top: 0;
     margin-bottom: 0; }
-  #tabs .container {
-    height: 125px; } }
+  .block-accordeon.container {
+    padding-top: 1%;
+    padding-bottom: 1%; } }
 
 @media only screen and (min-width: 980px) and (max-width: 1579px) {
   /* For desktop: */
@@ -371,6 +376,10 @@
     font-family: Proxima Nova Bold;
     text-transform: uppercase;
     font-size: 14px; }
+  #social-network span img {
+    margin-right: 20px;
+    cursor: pointer;
+    width: 12%; }
   .text-video-left {
     margin-top: -16%; }
   .header-accordion-text {
@@ -409,8 +418,8 @@
     text-transform: uppercase;
     text-decoration: none; }
   #fred-laura-container {
-    margin-top: 16%;
-    margin-bottom: 15%; }
+    margin-top: 12%;
+    margin-bottom: 12%; }
   .btn span {
     font-family: Proxima Nova Bold;
     text-transform: uppercase;
@@ -452,8 +461,7 @@
   #tabs .container {
     max-width: 68%;
     margin-right: auto;
-    margin-left: auto;
-    height: 93px; }
+    margin-left: auto; }
   .sous-titre-accordeon {
     font-family: Proxima Nova Bold;
     font-size: 27px;
@@ -465,4 +473,7 @@
     font-size: 26px;
     margin-left: 135px;
     margin-top: 0;
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+  .block-accordeon.container {
+    padding-top: 1%;
+    padding-bottom: 1%; } }

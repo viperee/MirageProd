@@ -32,9 +32,9 @@
             <p id="footer-copyright-text">© Mirage Festival 2020</p>
         </div>
         <div id="social-network" class="col-2 offset-7 margin-vertical-center text-center">
-            <span><img src="assets/icons/footer-facebook.svg" alt="Facebook"></span>
-            <span><img src="assets/icons/footer-twitter.svg" alt="Twitter"></span>
-            <span><img src="assets/icons/footer-instagram.svg" alt="Instagram"></span>
+            <span><a href="https://www.facebook.com/miragefest/" target="_blank"><img src="assets/icons/facebook-black.svg" alt="Facebook"></a></span>
+            <span><a href="https://twitter.com/miragefest" target="_blank"><img src="assets/icons/twitter-black.svg" alt="Twitter"></a></span>
+            <span><a href="https://www.instagram.com/miragefest/" target="_blank"><img src="assets/icons/instagram-black.svg" alt="Instagram"></a></span>
         </div>
     </div>
 </footer>

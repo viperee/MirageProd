@@ -133,6 +133,13 @@
         text-transform: uppercase;
         font-size: 19px;
     }
+    #social-network{
+      span img{
+        margin-right: 20px;
+        cursor: pointer;
+        width: 12%;
+      }
+    }
 
     //PROGRAMMATION
 
@@ -252,9 +259,10 @@
       margin-top: 0;
       margin-bottom: 0;
     }
-    #tabs .container {
-      height: 125px;
-    }
+    .block-accordeon.container {
+      padding-top: 1%;
+      padding-bottom: 1%;
+  }
 }
 
 @media only screen and (min-width: 980px) and (max-width: 1579px) {
@@ -407,6 +415,13 @@
         text-transform: uppercase;
         font-size: 14px;
     }
+    #social-network{
+      span img{
+        margin-right: 20px;
+        cursor: pointer;
+        width: 12%;
+      }
+    }
 
     //EXPERIENCE
 
@@ -464,8 +479,8 @@
       text-decoration: none;
     }
     #fred-laura-container {
-      margin-top: 16%;
-      margin-bottom: 15%;
+      margin-top: 12%;
+      margin-bottom: 12%;
   }
 
   //INFOS PRATIQUES
@@ -521,7 +536,6 @@
     max-width: 68%;
     margin-right: auto;
     margin-left: auto;
-    height: 93px;
   }
   .sous-titre-accordeon{
     font-family: Proxima Nova Bold;
@@ -537,5 +551,9 @@
     margin-top: 0;
     margin-bottom: 0;
   }
+  .block-accordeon.container {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
   
 }

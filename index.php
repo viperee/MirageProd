@@ -18,11 +18,11 @@
     <div id="lignes"></div>
     <div class="background-white defiliant-banner-wrapper position-fixed-bottom">
         <span class="defiliant-banner-text"
-              data-title="Mirage festival - Art, innovation et cultures du numérique - du 08 au 12 juillet -">
+              data-title="Mirage festival - Bordeaux - du 08 au 12 juillet -">
             <span
-                  data-title="Mirage festival - Art, innovation et cultures du numérique - du 08 au 12 juillet -"><span
-                        data-title="Mirage festival - Art, innovation et cultures du numérique - du 08 au 12 juillet -"><span
-                            data-title="Mirage festival - Art, innovation et cultures du numérique - du 08 au 12 juillet -">Mirage festival - Art, innovation et cultures du numérique - du 08 au 12 juillet -
+                  data-title="Mirage festival - Bordeaux - du 08 au 12 juillet -"><span
+                        data-title="Mirage festival - Bordeaux - du 08 au 12 juillet -"><span
+                            data-title="Mirage festival - Bordeaux - du 08 au 12 juillet -">Mirage festival - Bordeaux - du 08 au 12 juillet -
         </span>
         </span>
         </span>
