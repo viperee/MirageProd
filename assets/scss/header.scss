@@ -5,3 +5,17 @@
 #open-sidenav-btn {
   cursor: pointer;
 }
+
+#baseline-header {
+  margin-left: 35px;
+  display: inline-block;
+  position: absolute;
+  top: 20%;
+  p{
+    color: white;
+    font-family: Proxima Nova Bold;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+}
