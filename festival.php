@@ -34,9 +34,7 @@
                 <span data-title="Le festival">
                     <span data-title="Le festival">
                 <span data-title="Le festival">
-                    <span data-title="Le festival">
                     <span data-title="Le festival"> Le festival </span>
-                </span>
                 </span>
             </span>
                 </span>

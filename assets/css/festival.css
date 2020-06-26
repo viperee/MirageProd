@@ -30,6 +30,9 @@
   font-family: Proxima Nova Medium;
   src: url("../fonts/proxima_nova_medium.ttf"); }
 
+body {
+  overflow-x: hidden; }
+
 .festival-details-text {
   margin-top: 91px;
   margin-bottom: 91px; }
@@ -43,4 +46,4 @@
   margin-bottom: 12%; }
 
 #ambiance-dj {
-  margin-right: 80px; }
+  margin-right: 40px; }
