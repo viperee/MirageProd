@@ -55,7 +55,7 @@
                     </div>
                     <div class="col festival-details-text">
                         <p class="text-labeur text-left">
-                            Orbitant autour de la thématique spatiale, cette huitième édition du Mirage Festival se
+                            Orbitant autour de la thématique spatiale, cette première édition du Mirage Festival se
                             penche sur la façon dont les artistes abordent différentes approches de notre relation au
                             cosmos et sonde la manière dont la conquête spatiale, depuis ses débuts, a influencé et
                             transcendé les idées et les créations.<br><br>
