@@ -1,55 +1,59 @@
 @import "fonts.scss";
 @import "color.scss";
 
-.container-fluid{
+.container-fluid {
   margin-bottom: 71px;
 }
 
-.festival-description-wrapper {
+.formulaire-wrapper {
   padding-top: 62px;
-}
-
-#festival-details {
   margin-right: 255px;
   margin-left: 255px;
 }
 
-.festival-details-text {
+.formulaire-details {
   padding: 60px 107px;
 }
 
 
-#nom, #mail, #sujet, #message{
-    border: 1px solid $color-noir;
-    border-radius: 4px;
-    padding: 20px;
-    background-color: white;
-    color: $color-noir;
-    width: 100%;
-  }
-  #mail, #message{
-    float: right;
-    margin-right: 7%;
-  }
-  #nom, #sujet{
-    margin-left: 7%;
-  }
-  #nom::placeholder, #mail::placeholder, #sujet::placeholder, #message::placeholder{
-    color: $color-noir;
-    font-family: Proxima Nova Regular;
-    font-size: 23px;
-  }
-  #btn-formulaire{
-    width: 122px;
-    height: 51px;
-    margin-top: 23px;
-  }
+#nom, #mail, #sujet, #message {
+  border: 1px solid $color-noir;
+  border-radius: 4px;
+  padding: 20px;
+  background-color: white;
+  color: $color-noir;
+  width: 100%;
+}
 
-  input{
-      margin-bottom: 17px;
-      margin-right: 24px;
-  }
+#mail, #message {
+  float: right;
+  margin-right: 7%;
+}
 
-  h5{
-    margin: 0 auto 56px 0;
-  }
+#nom, #sujet {
+  margin-left: 7%;
+}
+
+#nom::placeholder, #mail::placeholder, #sujet::placeholder, #message::placeholder {
+  color: $color-noir;
+  font-family: Proxima Nova Regular;
+  font-size: 23px;
+}
+
+#btn-formulaire {
+  width: 122px;
+  height: 51px;
+  margin-top: 23px;
+}
+.btn-formulaire-wrapper{
+  margin-bottom: 60px;
+}
+input {
+  margin-bottom: 17px;
+  margin-right: 24px;
+}
+
+h5 {
+  margin: 0 auto 56px 0;
+  text-transform: none;
+}
