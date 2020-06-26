@@ -21,11 +21,7 @@
             <span data-title="Expérience insolite - ">
                 <span data-title="Expérience insolite - ">
                     <span data-title="Expérience insolite - ">
-                <span data-title="Expérience insolite - ">
-                    <span data-title="Expérience insolite - ">
-                    <span data-title="Expérience insolite - "> Expérience insolite -  </span>
-                </span>
-                </span>
+                <span data-title="Expérience insolite - "> Expérience insolite -  </span>
             </span>
                 </span>
             </span>
@@ -34,11 +30,10 @@
     <div class="container-fluid background-solitude affiche-details-wrapper">
         <div id="affiche-details" class="row background-white">
             <div id="affiche-festival" class="col affiche-details-text">
-                <img src="assets/media/img/affiche-mirage.svg">
+                <img src="assets/media/img/affiche-mirage.svg" alt="Affiche Mirage">
             </div>
             <div class="col affiche-details-text">
-                <p class="affiche-title">Affiche Interactive
-                </p>
+                <p class="affiche-title">Affiche Interactive</p>
                 <p class="text-labeur">Vous souhaitez découvrir notre affiche en réalité augmentée :<br><br>
 
                     1/ Téléchargez Artivive (sur votre store Android ou Apple)<br>
@@ -73,7 +68,6 @@
                     <video autoplay muted loop>
                         <source src="./assets/media/video/parcours.mp4" type="video/mp4">
                     </video>
-                    </divid>
                 </div>
             </div>
         </div>
@@ -81,7 +75,7 @@
             <div class="row">
                 <p class="map-title">Map</p>
             </div>
-            <div  class="row background-white">
+            <div class="row background-white">
                 <div class="col p-0">
                     <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1khoOBWkMR1mxA2JjjvdAi4fJb0YDLJqL"
                             width="640"
@@ -89,6 +83,7 @@
                 </div>
             </div>
         </div>
+    </div>
 </main>
 
 <?php include("footer.php"); ?>
