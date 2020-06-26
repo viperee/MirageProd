@@ -4,7 +4,6 @@
 <head>
     <title>Infos Pratiques</title>
     <?php include("head.php"); ?>
-    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
     <link rel="stylesheet" type="text/css" href="assets/css/infos-pratiques.css">
 </head>
 <body class="no-margin">

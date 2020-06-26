@@ -5,7 +5,6 @@
     <title>Expérience</title>
     <?php include("head.php"); ?>
     <link rel="stylesheet" type="text/css" href="assets/css/experience.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 </head>
 <body class="no-margin background-noir">
 <?php include("header.php"); ?>
@@ -28,7 +27,7 @@
                 <p class="text-labeur color-white w-70">Vivez une expérience unique de réalité virtuelle du côté des lieux
                     emblématiques et culturels de la ville : le Musée des Beaux-Arts de Bordeaux, le CAPC, la Fabrique
                     Pola, Méca, la Base sous-marine, …</p>
-                <button class="btn-with-icon-black"><span>En savoir plus</span></button>
+                <a href="experience-insolite.php"><button class="btn-with-icon-black"><span>En savoir plus</span></button></a>
             </div>
         </div>
     </div>

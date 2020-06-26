@@ -5,7 +5,6 @@
     <title>Festival</title>
     <?php include("head.php"); ?>
     <link rel="stylesheet" type="text/css" href="assets/css/partenariats.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 </head>
 <body class="no-margin background-noir">
 <?php include("header.php"); ?>

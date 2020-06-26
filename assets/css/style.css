@@ -82,14 +82,19 @@ body {
   margin-bottom: 0;
   background-color: #000000; }
 
-.btn-with-icon img {
-  margin-right: 17.8px;
-  vertical-align: sub; }
+button {
+  outline: none; }
 
-.btn-with-icon span {
-  font-family: Proxima Nova Bold;
-  text-transform: uppercase;
-  font-size: 19px; }
+.btn-with-icon {
+  width: 262px;
+  height: 62px; }
+  .btn-with-icon img {
+    margin-right: 17.8px;
+    vertical-align: sub; }
+  .btn-with-icon span {
+    font-family: Proxima Nova Bold;
+    text-transform: uppercase;
+    font-size: 19px; }
 
 .btn-with-icon:hover {
   background-color: #000000;
@@ -112,6 +117,9 @@ body {
     text-transform: uppercase;
     font-size: 19px;
     color: white; }
+
+.btn-with-icon-black:focus {
+  outline: none; }
 
 .btn-with-icon-black-no-hover {
   height: 75px;
@@ -153,7 +161,7 @@ body {
 
 @keyframes defilement-rtl {
   0% {
-    transform: translate3D(calc((-100%/7) - .0625em), 0, 0); }
+    transform: translate3D(calc((-100% / 7) - .0625em), 0, 0); }
   100% {
     transform: translate3D(0, 0, 0); } }
 

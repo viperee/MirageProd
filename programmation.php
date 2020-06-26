@@ -6,7 +6,6 @@
     <?php include("head.php"); ?>
     <link rel="stylesheet" type="text/css" href="assets/css/programmation.css">
     <link rel="stylesheet" type="text/css" href="assets/css/timeline.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 </head>
 <body class="no-margin">
 <?php include("header.php"); ?>

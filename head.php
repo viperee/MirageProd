@@ -15,4 +15,6 @@
 <link rel="stylesheet" href="assets/css/sidenav.css">
 <link rel="stylesheet" href="assets/css/footer.css">
 <link rel="stylesheet" href="https://use.typekit.net/qpb4uvx.css">
+<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
 

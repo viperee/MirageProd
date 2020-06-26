@@ -1,5 +1,5 @@
 $().ready(() => {
-    $(".btn-with-icon").hover(hoverIn, hoverOut);
+    $(".btn-with-icon").hover(hoverInHeader, hoverOutHeader);
     SA.redirection_mobile ({
         tablet_redirection : "true",
         mobile_url : "m.mirage.victoriapereira.fr",
@@ -7,13 +7,13 @@ $().ready(() => {
     });
 });
 
-function hoverIn() {
+function hoverInHeader() {
     let imgSrc = $(this).find('img').attr('src');
     imgSrc = imgSrc.replace("-black.svg", ".svg");
     $(this).find('img').attr('src', imgSrc);
 }
 
-function hoverOut() {
+function hoverOutHeader() {
     let imgSrc = $(this).find('img').attr('src');
     imgSrc = imgSrc.replace(".svg", "-black.svg");
     console.log(imgSrc);

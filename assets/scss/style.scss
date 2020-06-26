@@ -5,6 +5,12 @@ body {
   margin-bottom: 0;
   background-color: $color-noir;
 }
+
+button {
+  outline: none;
+}
+
+
 .btn-with-icon {
 
   img {
@@ -52,6 +58,10 @@ body {
   }
 }
 
+.btn-with-icon-black:focus {
+  outline: none;
+}
+
 
 .btn-with-icon-black-no-hover {
   height: 75px;
@@ -92,17 +102,17 @@ body {
 }
 
 
-
 .defiliant-banner-wrapper .defiliant-banner-text:hover {
   animation-play-state: paused;
 }
 
 
-.defiliant-banner-text span:before{
+.defiliant-banner-text span:before {
   content: attr(data-title);
   margin-right: .25em;
 }
-.defiliant-banner-text span:after{
+
+.defiliant-banner-text span:after {
   content: attr(data-title);
   margin-left: .25em;
 }
@@ -110,13 +120,14 @@ body {
 
 @keyframes defilement-rtl {
   0% {
-    transform: translate3D(calc((-100%/7) - .0625em),0,0)
+    transform: translate3D(calc((-100% / 7) - .0625em), 0, 0)
   }
 
   100% {
-    transform: translate3D(0,0,0)
+    transform: translate3D(0, 0, 0)
   }
 }
+
 button {
   border-color: transparent;
 }
