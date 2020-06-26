@@ -15,7 +15,7 @@
             <h4 class="color-white">Expérience Insolite</h4>
         </div>
     </div>
-    <div class="background-white defiliant-banner-wrapper festival-banner">
+    <div class="background-white defiliant-banner-wrapper experience-banner">
         <span class="defiliant-banner-text"
               data-title="Expérience insolite - ">
             <span data-title="Expérience insolite - ">

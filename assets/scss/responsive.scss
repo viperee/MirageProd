@@ -194,7 +194,15 @@
       #fred-laura-container {
         margin-top: 14%;
         margin-bottom: 14%;
-    }
+      }
+      .experience-overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: transparent linear-gradient(180deg, #000000 0%, #66666666 48%, #000000 100%) 0% 0% no-repeat padding-box;
+      }
 
     //INFOS PRATIQUES
 
@@ -262,6 +270,64 @@
     .block-accordeon.container {
       padding-top: 1%;
       padding-bottom: 1%;
+  }
+
+  //EXPERIENCE INSOLITE
+
+  .affiche-details-wrapper{
+    padding-top: 220px;
+    padding-bottom: 220px;
+  }
+  #affiche-details{
+    margin-bottom: 300px;
+    margin-right: 255px;
+    margin-left: 255px;
+    padding-bottom: 120px;
+  }
+  .affiche-title{
+    font-family: Proxima Nova ExtraBold;
+    font-size: 79px;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: $color-dim-gray;
+    color: transparent;
+    margin: 0;
+  }
+  .affiche-details-text{
+    margin-top: 120px;
+    .text-labeur{
+      margin-right: 102px;
+    }
+  }
+  #btn-download-app{
+    width: 481px;
+    height: 75px;
+    background-color: $color-noir;
+    img{
+      margin-right: 21.8px;
+      vertical-align: sub;
+    }
+    span{
+      color: white;
+      font-family: Proxima Nova Bold;
+      font-size: 24px;
+      text-transform: uppercase;
+    }
+  }
+  #parcours-urbains{
+    margin-right: 255px;
+    margin-left: 255px;
+  }
+  .map-title{
+    font-family: Proxima Nova ExtraBold;
+    font-size: 110px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-top: 325px;
+    margin-bottom: 25px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #707070;
+    color: transparent;
   }
 }
 
@@ -388,7 +454,7 @@
         font-size: 77px;
         text-transform: uppercase;
         margin-left: auto;
-        margin-top: 325px;
+        margin-top: 190px;
         margin-bottom: 25px;
         -webkit-text-stroke: 1px;
         -webkit-text-stroke-color: #707070;
@@ -481,7 +547,15 @@
     #fred-laura-container {
       margin-top: 12%;
       margin-bottom: 12%;
-  }
+    }
+    .experience-overlay {
+      position: absolute;
+      top: -2px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: transparent linear-gradient(180deg, #000000 0%, #66666666 48%, #000000 100%) 0% 0% no-repeat padding-box;
+    }
 
   //INFOS PRATIQUES
 
@@ -554,6 +628,69 @@
   .block-accordeon.container {
     padding-top: 1%;
     padding-bottom: 1%;
-}
+  }
+
+  //EXPERIENCE INSOLITE
   
+  .affiche-details-wrapper {
+    padding-top: 155px;
+    padding-bottom: 155px;
+  }
+  #affiche-details{
+    margin-bottom: 190px;
+    margin-right: 13%;
+    margin-left: 13%;
+    padding-bottom: 120px;
+  }
+  #affiche-festival img{
+    width: 83%;
+  }
+  .affiche-title{
+    font-family: Proxima Nova ExtraBold;
+    font-size: 60px;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: $color-dim-gray;
+    color: transparent;
+    margin: 0;
+  }
+  .affiche-details-text{
+    margin-top: 120px;
+    .text-labeur{
+      margin-right: 50px;
+    }
+  }
+  #btn-download-app{
+    width: 380px;
+    height: 70px;
+    background-color: $color-noir;
+    img{
+      margin-right: 21.8px;
+      vertical-align: sub;
+    }
+    span{
+      color: white;
+      font-family: Proxima Nova Bold;
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+  }
+  #video-parcours-urbains video {
+    width: 84%;
+  }
+  #parcours-urbains {
+    margin-right: 13%;
+    margin-left: 13%;
+  }
+  .map-title{
+    font-family: Proxima Nova ExtraBold;
+    font-size: 77px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-top: 190px;
+    margin-bottom: 25px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #707070;
+    color: transparent;
+  }
 }
