@@ -82,19 +82,25 @@ body {
   margin-bottom: 0;
   background-color: #000000; }
 
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0; }
+
+.row {
+  margin-right: 0;
+  margin-left: 0; }
+
 button {
   outline: none; }
 
-.btn-with-icon {
-  width: 262px;
-  height: 62px; }
-  .btn-with-icon img {
-    margin-right: 17.8px;
-    vertical-align: sub; }
-  .btn-with-icon span {
-    font-family: Proxima Nova Bold;
-    text-transform: uppercase;
-    font-size: 19px; }
+.btn-with-icon img {
+  margin-right: 17.8px;
+  vertical-align: sub; }
+
+.btn-with-icon span {
+  font-family: Proxima Nova Bold;
+  text-transform: uppercase;
+  font-size: 19px; }
 
 .btn-with-icon:hover {
   background-color: #000000;

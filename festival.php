@@ -75,10 +75,10 @@
                     <p class="ambiance-title">Ambiance</p>
                 </div>
                 <div class="row">
-                    <div id="ambiance-dj">
+                    <div id="ambiance-dj" class="col">
                         <img id="img-ambiance-main" src="assets/media/img/ambiance1-full.svg">
                     </div>
-                    <div>
+                    <div class="col pr-0">
                         <div class="row">
                             <div class="col-4">
                                 <img class="img-ambiance" src="assets/media/img/ambiance1.svg">
