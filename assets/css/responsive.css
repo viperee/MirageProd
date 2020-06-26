@@ -113,7 +113,7 @@
     font-style: normal;
     font-weight: 300;
     font-size: 26px;
-    line-height: 48px; }
+    line-height: 44px; }
   .defiliant-banner-text {
     font-family: Proxima Nova Bold;
     font-size: 39px;
@@ -145,7 +145,7 @@
     #festival-details h3 {
       margin: 0 0 0 105px; }
     #festival-details p {
-      margin: 0 105px 0 0; }
+      margin: 0 75px 0 0; }
   .festival-description-wrapper {
     padding-top: 228px; }
   .festival-banner {

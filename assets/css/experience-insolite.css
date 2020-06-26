@@ -46,6 +46,9 @@
 .background-solitude {
   background-color: #EEF0F4; }
 
+body {
+  overflow-x: hidden; }
+
 .experience-banner {
   margin-top: 98px; }
 
