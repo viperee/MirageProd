@@ -1,0 +1,123 @@
+/*--------------------------------------------------------------//
+//                          Couleur                            //
+//------------------------------------------------------------*/
+.color-noir {
+  color: #000000; }
+
+.color-gunmetal {
+  color: #2A3236; }
+
+.color-eclipse {
+  color: #383838; }
+
+.color-storm-grey {
+  color: #717276; }
+
+.color-dim-gray {
+  color: #707070; }
+
+.color-suva-grey {
+  color: #939393; }
+
+.color-lavender-grey {
+  color: #C6C6D1; }
+
+.color-solitude {
+  color: #EEF0F4; }
+
+.color-whisper {
+  color: #EAEAEA; }
+
+.color-white {
+  color: white; }
+
+/*----------------------------------------------------------------------//
+//                          Couleur de fond                            //
+//--------------------------------------------------------------------*/
+.background-noir {
+  background-color: #000000; }
+
+.background-white {
+  background-color: white; }
+
+.background-degrade {
+  background: linear-gradient(to right, #000000, #FFFFFF, #000000); }
+
+.background-solitude {
+  background-color: #EEF0F4; }
+
+#btn-download-app {
+  width: 481px;
+  height: 75px;
+  background-color: #000000; }
+  #btn-download-app img {
+    margin-right: 21.8px;
+    vertical-align: sub; }
+  #btn-download-app span {
+    color: white;
+    font-family: Proxima Nova Bold;
+    font-size: 24px;
+    text-transform: uppercase; }
+
+#google-map-wrapper {
+  margin-right: 255px;
+  margin-left: 255px; }
+  #google-map-wrapper iframe {
+    width: -webkit-fill-available; }
+
+#parcours-urbains {
+  margin-right: 255px;
+  margin-left: 255px; }
+
+#parcours-urbains-text {
+  margin-left: 102px;
+  margin-top: 120px;
+  margin-bottom: 104.5px; }
+  #parcours-urbains-text h5 {
+    margin: 0 0 70.5px; }
+
+#video-parcours-urbains {
+  margin-top: 120px; }
+
+.affiche-title {
+  font-family: Proxima Nova ExtraBold;
+  font-size: 79px;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: #707070;
+  color: transparent;
+  margin: 0; }
+
+.affiche-details-wrapper {
+  padding-top: 220px;
+  padding-bottom: 220px; }
+
+.map-title {
+  font-family: Proxima Nova ExtraBold;
+  font-size: 110px;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-top: 325px;
+  margin-bottom: 25px;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: #707070;
+  color: transparent; }
+
+#affiche-festival {
+  margin-left: 102px;
+  margin-top: 120px; }
+
+#link-btn-download-app {
+  position: absolute;
+  bottom: 0.5%; }
+
+#affiche-details {
+  margin-bottom: 300px;
+  margin-right: 255px;
+  margin-left: 255px;
+  padding-bottom: 120px; }
+
+.affiche-details-text {
+  margin-top: 120px; }
+  .affiche-details-text .text-labeur {
+    margin-right: 102px; }
