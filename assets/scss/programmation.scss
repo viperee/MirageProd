@@ -162,6 +162,9 @@ input:checked + .slider:before {
   vertical-align: -webkit-baseline-middle;
   margin-right: 18px;
 }
+.header-accordion{
+  cursor: pointer;
+}
 .header-accordion-icon{
   vertical-align: text-top;
   cursor: pointer;
